@@ -2,6 +2,7 @@ import { useState } from 'react';
 import {FiSearch} from 'react-icons/fi'
 import './styles.css';
 function App(){
+  return(
 
     <div className="container">
       <h1 className="title">Buscador de CEP</h1>
@@ -24,5 +25,6 @@ function App(){
 
       </main>
     </div>
+  );
   }
 export default App
